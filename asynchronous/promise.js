@@ -12,7 +12,7 @@ function getName(i) {
 }
 
 function main() {
-  getName(2)
+  getName(12)
     .then((res) => console.log(res))
     .catch((err) => console.log(err));
     console.log('in main');

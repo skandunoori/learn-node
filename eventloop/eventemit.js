@@ -5,9 +5,11 @@ class MyEmitter extends EventEmitter {
     super();
     this.emit('event')
   }
+  
 }
 
 const myEmitter = new MyEmitter();
 myEmitter.on('event', () => {
   console.log('an event occurred!');
 });
+myEmitter.emit('event')
